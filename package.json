@@ -1,0 +1,33 @@
+{
+  "name": "add-switchcn",
+  "version": "0.1.0",
+  "description": "Install the SwitchCN theme switcher into React and Next.js projects.",
+  "type": "module",
+  "bin": {
+    "add-switchcn": "./bin/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "switchcn",
+    "tailwindcss",
+    "theme",
+    "cli"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "fs-extra": "^11.3.0",
+    "ora": "^8.2.0",
+    "picocolors": "^1.1.1"
+  }
+}
